@@ -55,8 +55,8 @@
     "test": "bash scripts/run-integration-test.sh"
   },
   "peerDependencies": {
-    "@angular/compiler": "^7.0.0 || ^8.0.0 || ^9.0.0 || ^10.0.0 || ^11.0.0",
-    "@angular/core": "^7.0.0 || ^8.0.0 || ^9.0.0 || ^10.0.0 || ^11.0.0"
+    "@angular/compiler": ">=7.0.0",
+    "@angular/core": ">=7.0.0"
   },
   "dependencies": {
     "@carbon/icon-helpers": "10.6.0"
@@ -71,7 +71,7 @@
     "fs-extra": "7.0.1",
     "ng-packagr": "9.1.0",
     "semantic-release": "17.2.3",
-    "typescript": "3.8.3",
+    "typescript": "4.6.4",
     "zone.js": "0.10.3",
     "rollup": "2.3.3"
   },
